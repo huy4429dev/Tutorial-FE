@@ -1,0 +1,84 @@
+:root {
+  --font-heading: "Montserrat", sans-serif;
+  --font-para: "Lato", sans-serif;
+  --dark-blue: #2c3e50;
+  --white: #fff;
+  --green: #1abc9c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.h-100{
+    height: 100%;
+}
+
+
+.my-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+
+.hero {
+    font-family: var(--font-heading);
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.divider {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider span {
+    width: 120px;
+    height: 4px;
+    background-color: var(--white);
+}
+.divider i {
+    font-size: 2rem;
+    margin: 0 1.2rem;
+}

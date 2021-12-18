@@ -1,0 +1,57 @@
+/*============= TABLE OF CONTENTS =============*/
+/*1. Header
+/*2. Banner
+
+*/
+
+/*====== 1. Style header  */
+
+.header {
+  background-color: var(--dark-blue);
+  /* padding: 2rem 0; */
+  height: 100px;
+}
+
+.header a {
+  color: var(--white);
+  font-family: var(--font-heading);
+}
+
+.header .header-logo a {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.header .header-nav .nav-list .nav-item .active {
+  background-color: var(--green);
+  border-radius: 5px;
+}
+
+.header .header-nav .nav-list .nav-item .nav-link {
+  padding: 1.2rem 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 1s ease-in-out;
+}
+
+.header .header-nav .nav-list .nav-item .nav-link:hover {
+  color: var(--green);
+}
+
+/*====== 2. Style banner  */
+
+.banner {
+  background-color: var(--green);
+  text-align: center;
+  padding: 4rem 0;
+}
+.banner .banner-img img {
+  width: 230px;
+  margin-bottom: 2rem;
+}
+.banner h3 {
+  font-family: var(--font-para);
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
